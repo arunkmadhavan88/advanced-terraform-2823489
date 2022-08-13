@@ -26,7 +26,7 @@ provider "aws" {
 # TERRAFORM USER
 # //////////////////////////////
 data "aws_iam_user" "terraform" {
-  user_name = "terraform"
+  user_name = "cloud_user"
 }
 
 # //////////////////////////////
